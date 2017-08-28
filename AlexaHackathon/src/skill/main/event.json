@@ -1,0 +1,47 @@
+{
+  "session": {
+    "new": false,
+    "sessionId": "amzn1.echo-api.session.123",
+    "attributes": {},
+    "user": {
+      "userId": "amzn1.ask.account.123"
+    },
+    "application": {
+      "applicationId": "amzn1.ask.skill.2716f325-dc0b-404e-9221-441ede542f3f"
+    }
+  },
+  "version": "1.0",
+  "request": {
+    "locale": "en-US",
+    "timestamp": "2016-10-27T21:06:28Z",
+    "type": "IntentRequest",
+    "requestId": "amzn1.echo-api.request.123",
+    "intent": {
+      "slots": {
+        "food": {
+          "name": "food",
+          "value": "peanut butter"
+        }
+      },
+      "name": "GiveFoodIntent"
+    }
+  },
+  "context": {
+    "AudioPlayer": {
+      "playerActivity": "IDLE"
+    },
+    "System": {
+      "device": {
+        "supportedInterfaces": {
+          "AudioPlayer": {}
+        }
+      },
+      "application": {
+        "applicationId": "amzn1.ask.skill.2716f325-dc0b-404e-9221-441ede542f3f"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.123"
+      }
+    }
+  }
+}

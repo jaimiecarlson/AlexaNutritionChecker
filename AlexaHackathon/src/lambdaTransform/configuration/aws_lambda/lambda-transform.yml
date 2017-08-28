@@ -1,0 +1,2 @@
+archive_system: archive_nodejs
+handler_path: lib/commonjs/ElJeffeHack2017/index.js
