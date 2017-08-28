@@ -1,0 +1,8 @@
+base = {
+  workspace = carjaimi_ElJeffe;
+  versionSet = "ElJeffeHack/development";
+};
+packages = { 
+  ElJeffeHack2017-1.0 = .; 
+  ElJeffeHack2017LambdaTransform-1.0 = .;
+};
